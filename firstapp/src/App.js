@@ -3,13 +3,13 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import React, { useState } from 'react';
-import About from './components/About.js';
+// import About from './components/About.js';
 // import { Switch, Route, Routes } from "react-router-dom";
 
 // import { BrowserRouter as Router } from 'react-router-dom';
 
 
-function App() {
+export default function App() {
   const [mode, setMode] = useState('light'); // Whether dark mode is enabled or not
   const [alert, setAlert] = useState(null);
 
@@ -65,3 +65,4 @@ function App() {
     </>
   );
 }
+
